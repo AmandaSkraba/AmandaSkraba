@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <style>
+      .bg { fill: #FAF7EFF; stroke: #485343; stroke-width: 2; }
+      .title { fill: #485343; font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
+      .subtitle { fill: #9D5340; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect width="1200" height="90" rx="12" class="bg" />
+  <text x="50" y="38" class="subtitle">SEÇÃO 02</text>
+  <text x="50" y="68" class="title">Tecnologias & Ecossistema</text>
+  <g transform="translate(1100, 45)">
+    <circle cx="0" cy="0" r="15" fill="none" stroke="#718068" stroke-width="1.5" stroke-dasharray="3 3">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="5" fill="#9D5340" />
+  </g>
+</svg>

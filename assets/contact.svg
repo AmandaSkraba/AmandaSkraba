@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <style>
+      .bg { fill: #485343; }
+      .title { fill: #FAF7EFF; font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
+      .subtitle { fill: #718068; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect width="1200" height="90" rx="12" class="bg" />
+  <text x="50" y="38" class="subtitle">SEÇÃO 05</text>
+  <text x="50" y="68" class="title">Contato</text>
+  <circle cx="1120" cy="45" r="4" fill="#FAF7EFF">
+    <animate attributeName="cx" values="1100;1140;1100" dur="3s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1150" cy="45" r="4" fill="#9D5340">
+    <animate attributeName="cx" values="1150;1110;1150" dur="3s" repeatCount="indefinite" />
+  </circle>
+</svg>

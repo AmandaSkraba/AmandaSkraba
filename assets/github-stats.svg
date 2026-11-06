@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <style>
+      .bg { fill: #FAF7EFF; stroke: #485343; stroke-width: 2; }
+      .title { fill: #485343; font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
+      .subtitle { fill: #9D5340; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect width="1200" height="90" rx="12" class="bg" />
+  <text x="50" y="38" class="subtitle">SEÇÃO 04</text>
+  <text x="50" y="68" class="title">Estatísticas do GitHub</text>
+  <path d="M 1070,45 Q 1100,25 1130,45 T 1190,45" fill="none" stroke="#718068" stroke-width="2">
+    <animate attributeName="d" values="M 1070,45 Q 1100,25 1130,45 T 1190,45; M 1070,45 Q 1100,65 1130,45 T 1190,45; M 1070,45 Q 1100,25 1130,45 T 1190,45" dur="4s" repeatCount="indefinite" />
+  </path>
+</svg>

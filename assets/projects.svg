@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
+  <defs>
+    <style>
+      .bg { fill: #485343; }
+      .title { fill: #FAF7EFF; font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
+      .subtitle { fill: #718068; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; letter-spacing: 2px; }
+    </style>
+  </defs>
+  <rect width="1200" height="90" rx="12" class="bg" />
+  <text x="50" y="38" class="subtitle">SEÇÃO 03</text>
+  <text x="50" y="68" class="title">Projetos & Experimentações</text>
+  <rect x="1100" y="35" width="20" height="20" rx="4" fill="none" stroke="#9D5340" stroke-width="2">
+    <animateTransform attributeName="transform" type="rotate" values="0 1110 45;90 1110 45;0 1110 45" dur="6s" repeatCount="indefinite" />
+  </rect>
+</svg>
