@@ -1,18 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90">
   <defs>
     <style>
-      .bg { fill: #485343; }
-      .title { fill: #FAF7EFF; font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
-      .subtitle { fill: #718068; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; letter-spacing: 2px; }
+      .bg { fill: #FAF7EFF; stroke: #485343; stroke-width: 2; }
+      .title { fill: #485343; font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; }
+      .subtitle { fill: #9D5340; font-family: system-ui, -apple-system, sans-serif; font-size: 12px; letter-spacing: 2px; }
     </style>
   </defs>
   <rect width="1200" height="90" rx="12" class="bg" />
-  <text x="50" y="38" class="subtitle">SEÇÃO 01</text>
+  <text x="50" y="38" class="subtitle">PERFIL PROFISSIONAL</text>
   <text x="50" y="68" class="title">Sobre mim</text>
-  <circle cx="1130" cy="45" r="6" fill="#9D5340">
-    <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
-  </circle>
-  <line x1="180" y1="58" x2="1080" y2="58" stroke="#718068" stroke-width="1" stroke-dasharray="6 6" opacity="0.5">
-    <animate attributeName="stroke-dashoffset" from="0" to="24" dur="3s" repeatCount="indefinite" />
-  </line>
+  <line x1="175" y1="58" x2="1080" y2="58" stroke="#485343" stroke-width="1" stroke-dasharray="6 6" opacity="0.3" />
 </svg>

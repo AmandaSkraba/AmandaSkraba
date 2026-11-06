@@ -10,57 +10,34 @@
       .accent-sage { fill: #718068; }
     </style>
   </defs>
-
-  <!-- Fundo Dividido -->
   <rect width="600" height="430" class="bg-left" />
   <rect x="600" width="600" height="430" class="bg-right" />
-
-  <!-- Elementos Gráficos de Fundo & Órbita (Esquerda) -->
   <circle cx="100" cy="80" r="40" fill="none" stroke="#718068" stroke-width="1.5" stroke-dasharray="4 4" opacity="0.4">
     <animateTransform attributeName="transform" type="rotate" from="0 100 80" to="360 100 80" dur="25s" repeatCount="indefinite" />
   </circle>
-  <circle cx="500" cy="350" r="60" fill="none" stroke="#9D5340" stroke-width="1" opacity="0.3">
-    <animateTransform attributeName="transform" type="rotate" from="360 500 350" to="0 500 350" dur="20s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- Lado Esquerdo: Identidade -->
   <text x="70" y="110" font-size="14" font-weight="600" letter-spacing="3" fill="#718068">HELLO, WORLD</text>
-  <text x="70" y="180" font-size="44" font-weight="800" letter-spacing="1" class="text-light">AMANDA SKRABA</text>
+  <text x="70" y="180" font-size="42" font-weight="800" letter-spacing="1" class="text-light">AMANDA SKRABA</text>
   <text x="70" y="225" font-size="16" font-weight="700" letter-spacing="4" class="accent-terracota">FULL STACK DEVELOPER</text>
-
-  <!-- Linha Decorativa Animada -->
   <line x1="70" y1="260" x2="250" y2="260" stroke="#718068" stroke-width="2">
     <animate attributeName="x2" values="70;280;70" dur="6s" repeatCount="indefinite" />
   </line>
-
-  <!-- Elementos de Terminal / Código (Esquerda) -->
   <rect x="70" y="300" width="12" height="20" fill="#9D5340">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
   </rect>
-  <text x="92" y="315" font-size="13" font-family="monospace" fill="#FAF7EFF" opacity="0.8">dotnet watch run --project Core.Api</text>
-
-  <!-- Lado Direito: Editorial & Proposta -->
-  <text x="670" y="140" font-size="34" font-weight="700" class="text-dark">
-    Construindo experiências
-    <tspan x="670" y="185">digitais com propósito.</tspan>
+  <text x="92" y="315" font-size="13" font-family="monospace" fill="#FAF7EFF" opacity="0.8">dotnet new webapi -n Core.Api</text>
+  <text x="670" y="140" font-size="32" font-weight="700" class="text-dark">
+    Escalabilidade, APIs REST
+    <tspan x="670" y="185">e impacto direto no negócio.</tspan>
   </text>
-  <text x="670" y="235" font-size="15" class="text-muted">C# · .NET · Angular · APIs REST · Inteligência Artificial</text>
-
-  <!-- Composição Abstrata Animada (Direita) -->
+  <text x="670" y="235" font-size="15" class="text-muted">C# · .NET · Angular · SQL Server · 5 Anos Exp.</text>
   <rect x="670" y="280" width="180" height="70" rx="8" fill="#485343" opacity="0.08" />
   <circle cx="700" cy="315" r="16" class="accent-terracota">
     <animate attributeName="cy" values="315;310;315" dur="3s" repeatCount="indefinite" />
   </circle>
-  <text x="730" y="320" font-size="13" font-weight="600" class="text-dark">Clean Architecture</text>
-
+  <text x="730" y="320" font-size="13" font-weight="600" class="text-dark">+15 Entregas</text>
   <rect x="870" y="280" width="180" height="70" rx="8" fill="#485343" opacity="0.08" />
   <circle cx="900" cy="315" r="16" class="accent-sage">
     <animate attributeName="cx" values="900;905;900" dur="4s" repeatCount="indefinite" />
   </circle>
-  <text x="930" y="320" font-size="13" font-weight="600" class="text-dark">Design System</text>
-
-  <!-- Ponto orbital dinâmico -->
-  <circle cx="0" cy="0" r="4" fill="#9D5340">
-    <animateMotion path="M 900,100 C 950,50 1050,150 1000,200 Z" dur="10s" repeatCount="indefinite" />
-  </circle>
+  <text x="930" y="320" font-size="13" font-weight="600" class="text-dark">5 Projetos</text>
 </svg>
