@@ -133,9 +133,20 @@ Desenvolvimento .NET • C# • APIs REST • SQL Server • Angular CLI
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=amandaskraba&show_icons=true&hide_border=true&bg_color=FFFBF6&title_color=464C3F&icon_color=B6846B&text_color=936E67&rank_icon=github" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amandaskraba&layout=compact&hide_border=true&bg_color=FFFBF6&title_color=464C3F&text_color=936E67" />
+<div align="center">
+  <table>
+    <tr>
+      <td>
+       <img height="165"
+src="https://github-stats-extended.vercel.app/api?username=amandaskraba&show_icons=true&hide_border=true&bg_color=FFFBF6&title_color=464C3F&icon_color=B6846B&text_color=936E67&rank_icon=github" />
+      </td>
+      <td>
+        <img height="165"
+src="https://github-stats-extended.vercel.app/api/top-langs/?username=amandaskraba&layout=compact&hide_border=true&bg_color=FFFBF6&title_color=464C3F&text_color=936E67" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br/>
 
